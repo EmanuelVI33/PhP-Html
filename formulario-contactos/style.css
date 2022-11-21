@@ -1,0 +1,94 @@
+body {
+    background-color: #0DF189;
+}
+h1 {
+  font-size: 24px; 
+  text-align: center; 
+  font-family: cursive;
+}
+.container {
+    border: 3px solid #181615;
+    border-radius: 10px; 
+    width: 50%;
+    margin: auto;
+    background-color: #86F9F4;
+}
+.alert {
+    width: 50%;
+    padding: 4px;
+    font-size: 12px;
+    text-align: center;
+    border: 3px solid black;
+    border-radius: 20px;
+    margin: auto;
+    margin-bottom: 0.5rem;
+}
+.successful {
+    background-color: #33FA02;
+}
+.danger {
+    background-color: red;    
+}
+form {
+    display: flex;
+    padding: 2%;
+    flex-direction: column;
+    justify-content: center;  
+    align-content: center;
+}
+/* Inputs */
+.input-container {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 5px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1BF1E8;
+    border: 1px solid #429CEC;
+    border-radius: 5px;
+}
+.input-container label {
+    margin-right: 3%;
+}
+.input-message {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: antiquewhite;
+    padding: 8px;
+}
+/* Mensajes */
+.input-message {
+    background-color: #BFF3F5;
+    border: 1.5px solid #000;
+    border-radius: 5px;
+}
+textarea {
+    height: 4rem;
+    margin-top: 0.5rem;
+}
+/* Button Sutmit */
+.btn-submit {
+    font-size: 15px;
+    padding: 5px;
+    border: 1.5px solid #000;
+    border-radius: 10px;
+    margin-top: 1rem;
+    background-color: #75B2E9;
+    color: white;
+}
+.btn-submit:hover {
+    background-color: #3C83C3; 
+}
+/*  info-container */
+.info {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #1BF1E8;
+    border-top: 1.5px solid #000;
+    font-size: 12px;
+}

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <p>Si los datos estan en la URL es de tipo GET</p>
+
+    
+    <script>
+        // Es como una variable de formulario
+        const formData = new FormData();
+
+        formData.append('nombre', 'Mr.Emanuel');
+        formData.append('edad', '19');
+
+        fetch("servidor.php?id=456", {
+            body: formData,
+            method: "POST"
+        })
+        .then(res => res.text())
+        .then(data => {
+            console.log(data);
+        });
+
+    </script>
+</body>
+</html>
